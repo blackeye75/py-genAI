@@ -78,12 +78,29 @@
 
 #task 4
 # count freq of nums
-nums = [1,1,2,3,3,3,4]
-freq = {}
-for num in nums:
-  if freq[num]:
-    freq[num]+=1
-  else:
-    freq[num]=1
+# nums = [1,1,2,3,3,3,4]
+# freq = {}
+# for num in nums:
+#   if num in freq:
+#     freq[num]+=1
+#   else:
+#     freq[num]=1
 
-print(freq)
+# print(freq)
+
+
+# task 5
+# 👉 Print:
+# Priyanshu knows Python
+# Priyanshu knows AI
+# Priyanshu knows MERN
+data = {
+    "user": {
+        "name": "Priyanshu",
+        "skills": ["Python", "AI", "MERN","Node"]
+    }
+}
+
+for skill in data["user"]["skills"]:
+  # print(data["user"]["name"]+ " knows " + skill )
+  print(f"{data['user']['name']} knows {skill}")
