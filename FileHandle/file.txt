@@ -1,0 +1,4 @@
+ERROR: DB failed
+INFO: Server running
+ERROR: Timeout
+INFO: Connected
